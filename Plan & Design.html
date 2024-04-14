@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html xmlns:mso="urn:schemas-microsoft-com:office:office" xmlns:msdt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882">
+<head>
+<link href="style1.css" rel="stylesheet" type="text/css">
+
+
+<title></title></head>
+<div class="fullscreen nopadding">
+  <div id="header">
+    <ul>
+      <li style="float:right"><a href="References.html">References</a></li>
+      <li style="float:right"><a href="Evaluation.html">Evaluation</a></li>
+      <li style="float:right"><a href="Create.html">Create</a></li>
+      <li style="float:right"><a href="Plan & Design.html">Plan & Design</a></li>
+      <li style="float:right"><a href="Investigation.html">Investigation</a></li>
+      <li style="float:right"><a href="Meeting the Brief.html">Meeting the Brief</a></li>
+      <li style="float:right"><a href="Index.html">Home Page</a></li>
+    </ul>
+    </ul>
+  </div>
+  <div class="header">
+    <h1>Plan & Design</h1>
+  </div>
+</div>
+
+<div class="white">
+<h1></h1>
+
+<center><img src="technologiesused.jpg" width=100%/></center>
+  <p>
+  <br>
+  The first element of my project is an embedded system designed with the aim of aiding in the early diagnostics, and prompt treatment of sepsis through symptom analysis using the medium of  Microbits. I chose to use a microbit due to their simple UI, and universal accessibility. This diagnostic and treatment system consists of three seperate microbit’s coded using Microsoft MakeCode . The first microbit, completed with an OLED screen is designed to remain on patient’s at high risk for developing sepsis’s bedside. 
+  <br>
+  This serves a wide array of functions. Firstly it allows the patient/ their family members to alert a nurse if they believe the patient has begun to exhibit significant symptoms of infection (shake input). The next is that it allows the nurse to complete a brief questionnaire about the patient's details and symptoms using the Microbit’s buttons and automatically analyses the patient's risk using parameters set out by the HSE and NICE. If the patient’s symptoms indicate that they are at risk of sepsis, the microbit will automatically alert the doctor on duty, and use LED’s to display a message indicating the severity of the patient’s risk to other nurses or doctors on the ward. If the patient is calculated to be of high risk the microbit will also issue an alarm to further alert such doctors and nurses. </p>
+  <br>
+
+</div>
+<center><img src="flowchart1.jpg" width=100%/></center>
+<div class="semitrans">
+  <p>When the Microbit is shook, the nurse is alerted through an alarm embedded into a second mircobit to be worn as a watch on nurses wrist. This microbit will also display the patients bed number, as sent by the initial microbit to ensure the nurse is aware of exactly where attention is needed. Another microbit is to be worn by the doctor on duty. This will sound a short alarm if the patient is decided of being medium risk and a long alarm if the patient is of high risk. This is accompanied by a message displaying the patients bed number using LEDs. This use of automated communication will greatly improve time efficiency of hospital communications, reducing treatment times for patients, an essential factor in reducing Sepsis mortality.  <br>
+ </p>
+</div>
+<center><img src="flowchart2.jpg" width=100%/></center>
+<div class="white">
+	<p>Using Thonny, an IDE designed for Python I developed a model to allow doctors to visualise their patients risk rates for sepsis, their chance of recovery and the hospital’s overall statistics in relation to patient risk factors for sepsis. This model takes the impact of age, comorbities and admission into critical care into account when calculating predicted sepsis mortality, aswell as subsequent time taken to administer treatment and the possible diagnosis of a separate condition entirely. The code makes adequate use of graphs to display these figures improving user interaction and efficiency. </p>
+</div>
+
+</html>

@@ -1,0 +1,167 @@
+html, body {
+  height:100%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 25px;
+}
+
+html {
+  background: url('finalbackground.jpg') fixed;
+  background-size: 100%;
+}
+
+div {
+  overflow: hidden;
+}
+
+a {
+  color: #78769c;
+  text-decoration: underline;
+  transition: 500ms;
+}
+a:link {  
+	text-decoration: none; 
+	color: #000000;
+	}
+a:visited { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #0b0620;
+	}
+a:hover, a:focus, a:active { 
+	text-decoration: none; 
+	color: #989fa8;
+	}
+
+p {
+  padding: 0 5%;
+}
+
+img {
+  box-shadow: 0px 0px 4px #000;
+}
+
+#header {
+  background: rgba(255, 255, 255, .5);
+  padding: 1%;
+  overflow: hidden;
+  height: 55px;
+}
+#header img {
+  float: left;
+  box-shadow: none;
+}
+#header ul {
+  list-style: none;
+  float: right;
+  padding-left: 10px;
+  margin-top: 15px;
+}
+#header ul li {
+  float: left;
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+.fullscreen {
+  height: 95%;
+  position: relative;
+}
+.fullscreen .header {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  color: #070214;
+  text-shadow: 0px 0px 2px #000;
+}
+
+.white {
+  background: #eeeeec;
+  padding: 0 5%;
+}
+.nobg {
+  background: none;
+  padding: 0 5%;
+  color: #fff;
+  text-shadow: 0px 0px 4px #000;
+}
+.semitrans {
+  background: rgba(255, 255, 255, .75);
+  padding: 0 5%;
+}
+
+.nopadding {
+  padding: 0;
+}
+
+.floatleft {
+  float: left;
+  margin: 2%;
+}
+.floatright {
+  float: right;
+  margin 2%;
+}
+
+.more {
+  text-align: center;
+  font-size: 17px;
+}
+.more a {
+  color: #aaa;
+  text-decoration: none;
+  cursor: pointer;
+}
+.more a:hover {
+  color: #777;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 0px;
+  text-align: left;
+  padding: 14px;
+}
+
+tr:nth-child(odd) {
+  background-color: #dddddd;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+.column1 {
+  float: left;
+  width: 32%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+div.scroll-container-white {
+  background-color: #ffffff;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+}
+div.scroll-container-trans {
+  background-color: #d5d6da;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+}
+
+div.scroll-container img {
+  padding: 10px;
+}
